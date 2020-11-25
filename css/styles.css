@@ -1,0 +1,104 @@
+
+	ul {
+  list-style: none;
+}
+
+
+
+/* Navbar */
+.navbar {
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  /*display: flex;*/
+/*  justify-content: space-between;
+*/  
+  align-items: center;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  border-bottom: solid 1px #13d8e1;;
+  opacity: 0.9;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #13d8e1;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: #f01485;
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+
+
+
+.navbar>ul>li {
+  background-color: #ff4b4b;
+  animation-name: example;
+  animation-duration: 4s;
+  transition: width 2s;
+  border: 1px solid #f40909;
+  border-radius: 5px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.navbar>ul>li >a{
+  color:white;
+}
+
+.navbar >ul>li:hover{
+	transform: rotate(360deg);
+  background-color: #ffecec;
+}
+
+h1{
+
+	text-shadow: 4px 2px 4px #4ac44a;
+
+	text-shadow:-1px 0 #4ac44a, 0 1px black, 1px 0 black, 0 -1px #4ac44a;
+}
+
+@keyframes example {
+  from {background-color: #79d258;}
+  to {background-color: grey;}
+}
+
+
+#recipediv,.fuck, .content{
+  border: 1px solid grey;
+  background-color: red;
+
+}
+.greenColor{
+  color: green
+}
+
+.blueColor{
+  color:blue;
+}
+
+
+.yellowColor{
+  background-color: yellow;
+}
+.greyColor{
+  background-color: grey;
+  border-color: lightblue;
+  border-width: 8px;
+  border-style: solid;
+}
+.greyColor>h1 {
+  color: orange;
+}
+.greyColor>ul>li{
+  color: red;
+}
